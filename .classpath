@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="F:/Android Jars/ksoap2-android-assembly-2.4-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="F:/Android Software/adt-bundle-windows-x86-20140702/adt-bundle-windows-x86-20140702/adt/sdk/platforms/android-19/android.jar" sourcepath="F:/Android Software/adt-bundle-windows-x86-20140702/adt-bundle-windows-x86-20140702/adt/sdk/sources/android-19">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/F:/Android Software/adt-bundle-windows-x86-20140702/adt-bundle-windows-x86-20140702/adt/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
