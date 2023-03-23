@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+        <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+        <TextView
+           
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+           
+            
+             />
+
+        <TextView
+                   	 android:layout_width="25dp"
+                     android:layout_height="20dp"
+                     android:layout_weight="1"
+                      />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/close" />
+
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical"
+         >
+         <TextView
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="CPT INFO CELL"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+           
+            <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+
+            </TableRow>
+            
+            
+              <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                   >
+                  
+                       <ImageButton
+                   android:id="@+id/iorganise"
+                   android:layout_width="100sp"
+                   android:layout_height="100sp"
+                   android:background="@drawable/organise"
+                    />
+              
+            </TableRow>
+             <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                   >
+                   <TextView
+                   	 android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25"
+                      />
+
+                   <TextView
+                       android:layout_width="100dp"
+                       android:layout_height="wrap_content"
+                       android:background="#40000000"
+                       android:gravity="center"
+                       android:text="Add new user"
+                       android:textColor="#ffffff"
+                       android:textSize="16sp" />
+                       
+                   <TextView
+                   	 android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25"
+                      />
+
+               
+               
+               
+
+            </TableRow>
+             
+             
+           
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+            
+           </TableRow>
+         
+           
+          
+            
+           <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                   >
+
+               <TextView
+                  
+                   android:layout_width="10dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                  />
+                  <ImageButton
+                   android:id="@+id/istudent"
+                   android:layout_width="100sp"
+                   android:layout_height="100sp"
+                   android:background="@drawable/student"
+                  
+                    
+                    />
+                    
+
+                       <TextView
+                          
+                           android:layout_width="40dp"
+                           android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                          />
+
+                       
+                       
+               <ImageButton
+                   android:id="@+id/istaff"
+                   android:layout_width="100sp"
+                   android:layout_height="100sp"
+                   android:background="@drawable/staff" />
+                       
+                       
+
+                       <TextView
+                          
+                           android:layout_width="10dp"
+                           android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                    />
+
+            </TableRow>
+             <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                   >
+                   <TextView
+                   	 android:layout_width="20dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="1"
+                      />
+                  
+                       <TextView
+                           android:layout_width="100dp"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Admin"
+                     android:layout_weight="1"
+                     android:textColor="#ffffff"
+                      android:background="#40000000"
+                     android:textSize="16sp" />
+                       
+                   <TextView
+                   	 android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="1"
+                      />
+
+                   <TextView
+                       android:layout_width="100dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:background="#40000000"
+                       android:gravity="center"
+                       android:text="Users"
+                       android:textColor="#ffffff"
+                       android:textSize="16sp" />
+
+                 <TextView
+                   	 android:layout_width="10dp"
+                     android:layout_height="30dp"
+                    android:layout_weight="1"
+                      />
+               
+               
+
+            </TableRow>
+            
+             
+             
+           
+          
+            
+         
+             
+             <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+            
+           </TableRow>
+           
+          
+            
+        
+
+          
+            
+        </LinearLayout>
+    </ScrollView>
+    
+   
+</RelativeLayout>

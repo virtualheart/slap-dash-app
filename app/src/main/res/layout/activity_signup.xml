@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp" />
+<Spinner
+                android:id="@+id/spin_usr_type"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:entries="@array/login_type"
+                android:prompt="@string/login_prompt" />
+    <EditText
+        android:id="@+id/txtbox_reg_user"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:hint="User Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtbox_reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtbox_reg_repass"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        
+        android:hint="Retype Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtbox_reg_mail"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        
+        android:hint="Mail Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtbox_reg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        
+        android:hint="Mobile No"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/txtbox_reg_address"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        android:hint="Address"
+         />
+
+    <Button
+        android:id="@+id/btn_reg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:background="@drawable/off"
+        android:layout_marginBottom="5dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btn_reg_bakck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/off"
+
+        android:text="Back" />
+
+
+</LinearLayout>

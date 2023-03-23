@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slap Dash</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_next_page">NextPage</string>
+    <string name="title_activity_complaint">User</string>
+    <string name="login_prompt">User Type</string>
+    <string name="prompt_com_state">Select State</string>
+
+    <string-array name="login_type">
+        <item>admin</item>
+        <item>user</item>
+    </string-array>
+
+    <string-array name="complint_status">
+        <item>Select Status</item>
+        <item>New</item>
+        <item>Queued</item>
+        <item>In-progress</item>
+        <item>Pending</item>
+        <item>Resolved</item>
+        <item>closed</item>
+        <item>Reopen</item>
+
+    </string-array>
+
+
+    <string name="title_activity_user_home">UserHome</string>
+    <string name="title_activity_complainlist">Complainlist</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_review">Review</string>
+    <string name="title_activity_get_view">GetView</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

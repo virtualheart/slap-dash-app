@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Absis"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Userlist"
+            android:exported="false" />
+        <!--
+    for http state
+    android:usesCleartextTraffic="true"
+        -->
+        <activity
+            android:name=".ComplaintDetiles"
+            android:exported="false" />
+        <activity
+            android:name=".spalsh"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Main" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup" />
+        <activity
+            android:name=".NextPage"
+            android:label="@string/title_activity_next_page" />
+        <activity
+            android:name=".Complaint"
+            android:label="@string/title_activity_complaint" />
+        <activity
+            android:name=".UserHome"
+            android:label="@string/title_activity_user_home" />
+        <activity
+            android:name=".Complainlist"
+            android:label="@string/title_activity_complainlist" />
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details" />
+        <activity
+            android:name=".Review"
+            android:label="@string/title_activity_review" />
+        <activity
+            android:name=".GetView"
+            android:label="@string/title_activity_get_view" />
+    </application>
+
+</manifest>

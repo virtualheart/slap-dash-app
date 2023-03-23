@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Complaint"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+<Button
+        android:id="@+id/btn_getlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/purple_500"
+        android:text="Get Location" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp" />
+
+    <EditText
+        android:id="@+id/txtbox_reg_user"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:maxLines="1"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        
+        android:hint="People Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtbox_reg_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+                android:textColor="#FFFFFF"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:hint="Complaint"
+         />
+
+    <EditText
+        android:id="@+id/txtbox_reg_mail"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:hint="Area,City"
+                android:textColor="#FFFFFF"
+        
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/txtbox_reg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:maxLines="1"
+        android:hint="Mobile No"
+        android:layout_marginTop="10dp"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/compimg"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/home"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_nxt_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/purple_500"
+        android:text="Select a image" />
+
+    <Button
+        android:id="@+id/btn_nxt_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/purple_500"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:text="Add Complaint"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/purple_500"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+  android:text="Back" />
+</LinearLayout>

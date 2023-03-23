@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ComplaintDetiles">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complaint Details"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/compd_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Update"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/compd_bck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/compd_bck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="185dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:text="NAME            :"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:text="COMPLAINT  :"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="ADDRESS       :"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="DATE              :"
+            android:textColor="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="MOBILE          : "
+            android:textColor="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="STATE            : "
+            android:textColor="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="COMMANDS     : "
+            android:textColor="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/compd_name"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            android:text="this is for name"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/compd_complaint"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="compl detiles of this fld"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/compd_address"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="problam address"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/compd_date"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="this is reported date "
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/compd_mob"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="this is mobile num"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/compd_state"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="this is mobile num"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/compd_commands"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:text="this is mobile num"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/compd_img"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/compd_update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cleean"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
